@@ -11,4 +11,5 @@ This repo is for basics of selenium, testng and java
    b. EdgeTestNG.java - shows how to open Microsoft Edge as a Test Case using TestNG Framework
    c. FirefoxTestNG.java - shows how to open Firefox as a Test Case using TestNG Framework
    d. IETestNG.java - shows how to open Internet Explorer as a Test Case using TestNG Framework
+   e. AllBrowsersTest.java - show how to open 4 browsers as four Test Cases from one Test Class file using TestNG Framework
    
