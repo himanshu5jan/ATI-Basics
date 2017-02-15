@@ -5,4 +5,4 @@ This repo is for basics of selenium, testng and java
    b. EdgeTest.java - shows how to open Microsoft Edge
    c. FirefoxTest.java - shows how to open Firefox
    d. IETest.java - shows how to open Internet Explorer
-   e. BrowsersDriversDownload.docx - explains from where to download all browser drivers and if other configurations are required
+   e. BrowsersDriversDownload.docx - explains from where to download all browser drivers and if other configurations are required.
