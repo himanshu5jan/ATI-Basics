@@ -3,7 +3,7 @@ package powTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestNGBasics4 {
@@ -30,30 +30,30 @@ public class TestNGBasics4 {
 	@Test(priority=1)
 	public void ZTest() {
 		System.out.println("Test1");
-		AssertJUnit.assertTrue(failedcase());
+		Assert.assertTrue(failedcase());
 	}
 	
 	@Test(priority=2)
 	public void test2() {
 		System.out.println("Test2");
-		AssertJUnit.assertTrue(passedcase());
+		Assert.assertTrue(passedcase());
 	}
 	
 	@Test(priority=3)
 	public void Zest3() {
 		System.out.println("Test3");
-		AssertJUnit.assertTrue(failedcase());
+		Assert.assertTrue(failedcase());
 	}
 	
 	@Test(priority=4)
 	public void test4() {
 		System.out.println("Test4");
-		AssertJUnit.assertTrue(passedcase());
+		Assert.assertTrue(passedcase());
 	}
 	@Test(priority=5)
 	public void AdminTest() {
 		System.out.println("Test5");
-		AssertJUnit.assertTrue(passedcase());
+		Assert.assertTrue(passedcase());
 	}
 	
 	
